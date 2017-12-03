@@ -13,7 +13,7 @@ import { ShoppingCart } from '../models/shopping-cart';
   templateUrl: './products.component.html',
   styleUrls: ['./products.component.css']
 })
-export class ProductsComponent implements OnInit{
+export class ProductsComponent implements OnInit {
 products: Product[] = [];
 filteredProducts: Product[] = [];
 category: string;

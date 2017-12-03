@@ -26,7 +26,7 @@ items: ShoppingCartItem[] = [];
    sum += this.items[productId].totalPrice;
    return sum;
  }
-  
+
   get totalItemsCount() {
     let count = 0;
     for (let productId in this.itemsMap)
